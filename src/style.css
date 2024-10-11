@@ -1,3 +1,35 @@
-body {
-  margin: 0;
+.body {
+  font-family: Roboto, sans-serif;
+}
+
+nav {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-align: center;
+
+}
+
+.list {
+  margin-left: 20px;
+  margin-top: 10px;
+  color: black;
+  text-align: top;
+  line-height: 40px;
+}
+
+.list:active {
+  color: #00acdc;
+  text-decoration: underline solid #00acdc 4px;
+  text-underline-offset: 15px;
+}
+
+.list:hover {
+  color: #00acdc;
+}
+
+.img {
+  margin-right: 350px;
+  position: relative;
+
 }
